@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Mono", "san-serif";
+  background-image: url("snow.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+.countdown-container {
+  display: flex;
+}
+
+.big-text {
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 1rem;
+  margin: 2.5rem 1.5rem;
+}
+
+.countdown-el {
+  text-align: center;
+}
+
+.countdown-el span {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  .big-text {
+    font-size: 3rem;
+    margin: 2rem 1rem;
+  }
+  .countdown-el span {
+    font-size: 1rem;
+  }
+}
